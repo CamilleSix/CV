@@ -1,0 +1,41 @@
+
+.leftPanel, .rightPanel{
+    width: 25vw;
+    background-color: #c40303;
+    position: relative;
+}
+.leftPanel{
+    height: 43vw;
+    border-radius: 1em ;
+    overflow: hidden;
+}
+
+.leftPanel svg{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+}
+.roundCenter{
+    position: relative;
+    z-index: 2;
+}
+ .roundCenter span{
+     content: "";
+    position: absolute;
+    right: 0.6vw;
+    bottom: -0.1vw;
+    height: 38vw;
+    width: 2vw;
+border: 2vw ;
+    background-color: #930000;
+     border-radius: 0.5em;
+     box-sizing: border-box;
+}
+.rightPanel{
+    height: 32vw;
+}
+
+.ibval{display: inline-block;vertical-align: bottom}
+.tac{text-align: center}
